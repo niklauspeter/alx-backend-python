@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""function has method returns value from dictionary.
+"""function has method that returns value from dictionary.
 in it's correct annotation"""
 from typing import Mapping, Any, Union, TypeVar, Optional
 
