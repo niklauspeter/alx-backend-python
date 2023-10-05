@@ -1,9 +1,10 @@
-from typing import Tuple, List
+#!/usr/bin/env python3
 """
 Function returns a list of integers
 multiplied by specified factor
 passed as argument.
 """
+from typing import Tuple, List
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
