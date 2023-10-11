@@ -14,7 +14,7 @@ def measure_time(n: int, max_delay: int) -> float:
         max_delay: the maximum amount of time to wait for each coroutine
     Returns: elapsed time in seconds
     """
-    
+
     start = perf_counter()
     asyncio.run(wait_n(n, max_delay))
     elapsed = perf_counter() - start
